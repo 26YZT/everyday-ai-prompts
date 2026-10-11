@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>06-feishu-发布稿_排版_摸鱼绿(moyu-green) · 公众号排版预览</title>
+<style>
+  body{margin:0;background:#eef0f2;font-family:-apple-system,BlinkMacSystemFont,'PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif;-webkit-text-size-adjust:100%;}
+  .gzh-toolbar{position:fixed;top:0;left:0;right:0;height:54px;background:#ffffff;box-shadow:0 1px 10px rgba(0,0,0,.08);display:flex;align-items:center;justify-content:space-between;padding:0 16px;z-index:99;}
+  .gzh-hint{font-size:13px;color:#6b7280;line-height:1.4;}
+  .gzh-hint b{color:#111827;}
+  .gzh-copy{background:#059669;color:#fff;border:0;border-radius:9px;padding:10px 20px;font-size:14px;font-weight:700;cursor:pointer;box-shadow:0 3px 10px rgba(5,150,105,.28);white-space:nowrap;transition:transform .08s,background .15s;}
+  .gzh-copy:hover{background:#047857;}
+  .gzh-copy:active{transform:translateY(1px);}
+  .gzh-toast{position:fixed;top:66px;left:50%;transform:translateX(-50%);background:#111827;color:#fff;padding:11px 20px;border-radius:10px;font-size:14px;font-weight:600;opacity:0;pointer-events:none;transition:opacity .25s;z-index:100;box-shadow:0 6px 20px rgba(0,0,0,.25);max-width:88vw;text-align:center;}
+  .gzh-toast.show{opacity:1;}
+  .gzh-stage{max-width:700px;margin:78px auto 64px;padding:0 8px;}
+  @media(max-width:520px){.gzh-hint{max-width:150px;}}
+</style>
+</head>
+<body>
+<div class="gzh-toolbar">
+  <span class="gzh-hint">👇 下方是排版效果 · 点右侧 <b>复制</b> 直接粘到公众号</span>
+  <button class="gzh-copy" id="gzhCopyBtn" onclick="gzhCopy()">📋 复制到公众号</button>
+</div>
+<div class="gzh-toast" id="gzhToast"></div>
+<div class="gzh-stage">
+  <div id="gzh-content">
+<section style="max-width:677px;margin:0 auto;background:#ffffff;font-family:-apple-system,BlinkMacSystemFont,'PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif;color:#374151;line-height:1.75;letter-spacing:0.5px;overflow-x:hidden;">
+
+  <section style="margin:0 0 32px;background:#fff;border:1.5px solid rgba(5,150,105,0.15);border-radius:20px;overflow:hidden;box-shadow:0 4px 20px rgba(0,0,0,0.06);width:100%;">
+  <section style="padding:32px 28px 28px;">
+    <section style="display:flex;align-items:center;gap:8px;margin-bottom:28px;">
+      <span style="width:6px;height:6px;background:#059669;border-radius:50%;"><span leaf=""><br></span></span>
+      <span style="font-size:11px;font-weight:700;letter-spacing:3px;color:#059669;"><span leaf="">使用手册</span></span>
+      <section style="flex:1;height:1px;overflow:hidden;background:linear-gradient(to right,rgba(5,150,105,0.12),transparent);"><span leaf=""><br></span></section>
+      <span style="font-size:10px;color:#D1D5DB;font-weight:600;"><span leaf="">2026·10</span></span>
+    </section>
+    <section>
+      <p style="font-size:24px;font-weight:900;color:#111827;margin:0;line-height:1.05;letter-spacing:-2px;">
+        <span leaf="">从一段困惑</span>
+        <span style="color:#059669;"><span leaf=""></span></span>
+      </p>
+      <p style="font-size:24px;font-weight:900;color:#059669;margin:0 0 16px;line-height:1.05;letter-spacing:-2px;">
+        <span leaf="">走到一次行动</span>
+      </p>
+      <section style="width:48px;height:3px;background:linear-gradient(to right,#059669,#34D399);border-radius:2px;margin-bottom:12px;">
+        <span leaf=""><br></span>
+      </section>
+      <p style="font-size:13px;color:#9CA3AF;margin:0;line-height:1.7;letter-spacing:0.5px;">
+        <span leaf="">填入材料 · 检查回答 · 留下反馈</span>
+      </p>
+    </section>
+  </section>
+  <section style="background:linear-gradient(135deg,#059669,#10B981);padding:12px 28px;display:flex;align-items:center;justify-content:space-between;">
+    <p style="font-size:12px;color:rgba(255,255,255,0.9);margin:0;font-weight:600;letter-spacing:0.5px;">
+      <span leaf="">12 组原创 Prompt 模板</span>
+    </p>
+    <section style="display:flex;gap:4px;">
+      <span style="background:rgba(255,255,255,0.2);padding:1px 6px;border-radius:3px;font-size:8px;color:#fff;font-weight:600;"><span leaf="">教程</span></span>
+      <span style="background:rgba(255,255,255,0.2);padding:1px 6px;border-radius:3px;font-size:8px;color:#fff;font-weight:600;"><span leaf="">赡养上帝</span></span>
+    </section>
+  </section>
+</section>
+<section style="margin:0 20px 32px;">
+  <section style="display:flex;align-items:center;justify-content:space-between;margin-bottom:10px;">
+    <p style="font-size:10px;color:#9CA3AF;margin:0;text-transform:uppercase;letter-spacing:2px;font-weight:600;">
+      <span leaf="">精选导读 · 前三节</span>
+    </p>
+    <p style="font-size:10px;color:#9CA3AF;margin:0;">
+      <span leaf="">滑动查看</span>
+    </p>
+  </section>
+  <section style="overflow-x:scroll;-webkit-overflow-scrolling:touch;white-space:nowrap;padding-bottom:8px;">
+    <section style="display:inline-block;white-space:normal;vertical-align:top;width:110px;background:linear-gradient(135deg,#059669,#10B981);border-radius:12px;padding:12px;margin-right:8px;">
+      <p style="font-size:9px;font-weight:700;color:rgba(255,255,255,0.7);letter-spacing:1px;margin:0 0 5px;">
+        <span leaf="">PART 01</span>
+      </p>
+      <p style="font-size:13px;font-weight:800;color:#fff;margin:0 0 3px;">
+        <span leaf="">先把这次的材料交代清楚</span>
+      </p>
+      <p style="font-size:10px;color:rgba(255,255,255,0.7);margin:0;">
+        <span leaf="">使用前准备</span>
+      </p>
+    </section><section style="display:inline-block;white-space:normal;vertical-align:top;width:110px;background:#fff;border:1px solid #E5E7EB;border-radius:12px;padding:12px;margin-right:8px;box-shadow:0 2px 6px rgba(0,0,0,0.04);">
+      <p style="font-size:9px;font-weight:700;color:#9CA3AF;letter-spacing:1px;margin:0 0 5px;">
+        <span leaf="">PART 02</span>
+      </p>
+      <p style="font-size:13px;font-weight:800;color:#111827;margin:0 0 3px;">
+        <span leaf="">问清问题以后再讨论办法</span>
+      </p>
+      <p style="font-size:10px;color:#9CA3AF;margin:0;">
+        <span leaf="">第 01 组</span>
+      </p>
+    </section><section style="display:inline-block;white-space:normal;vertical-align:top;width:110px;background:#fff;border:1px solid #E5E7EB;border-radius:12px;padding:12px;margin-right:8px;box-shadow:0 2px 6px rgba(0,0,0,0.04);">
+      <p style="font-size:9px;font-weight:700;color:#9CA3AF;letter-spacing:1px;margin:0 0 5px;">
+        <span leaf="">PART 03</span>
+      </p>
+      <p style="font-size:13px;font-weight:800;color:#111827;margin:0 0 3px;">
+        <span leaf="">学习时给自己留一道检查题</span>
+      </p>
+      <p style="font-size:10px;color:#9CA3AF;margin:0;">
+        <span leaf="">第 02 至 05 组</span>
+      </p>
+    </section>
+  </section>
+</section>
+<section style="padding:0 20px;">
+<section style="background:#FFF;border:1px dashed #BBF7D0;border-radius:8px;padding:14px 16px;margin-bottom:24px;text-align:center;">
+  <p style="margin:0;line-height:1.6;">
+    <span style="font-size:15px;color:#059669;font-weight:bold;border-bottom:3px solid #FDE68A;padding-bottom:2px;"><span leaf="">想让 AI 帮上忙，先让它知道这次做到什么程度才算完成。</span></span>
+  </p>
+</section>
+<p style="margin-bottom:16px;font-size:14px;line-height:1.9;text-align:justify;">
+  <span leaf=""><span leaf="">我读完数字生命卡兹克那篇常用 Prompt 合集，最想留下的，是把一个模糊请求拆成</span><span style="border-bottom:2px solid #A7F3D0;font-weight:600;"><span leaf="">具体动作</span></span><span leaf="">的思路。有些问题，得先追问。学一个概念可以讲完再检查，拿不准的选择也能先安排试验。读者能够看见下一步，就容易判断这次对话有没有往前走。</span></span>
+</p>
+<p style="margin-bottom:16px;font-size:14px;line-height:1.9;text-align:justify;">
+  <span leaf=""><span leaf="">这篇按</span><a href="https://mp.weixin.qq.com/s/NAdhdFrUq9-BKelqzqpwBQ" style="color:#059669;text-decoration:underline;"><span leaf="">原文的十二种用途</span></a><span leaf="">整理，模板全部</span><span style="border-bottom:2px solid #A7F3D0;font-weight:600;"><span leaf="">重新编写</span></span><span leaf="">。你可以直接复制使用，原作者的完整版本请回到来源阅读。下面的使用建议来自对任务结构的分析，尚未做逐条模型效果测试。</span></span>
+</p>
+</section>
+<section style="margin-top:16px;margin-bottom:32px;padding:0 20px;">
+  <section style="display:flex;align-items:center;gap:16px;margin-bottom:24px;">
+    <section style="text-align:center;flex-shrink:0;">
+      <p style="margin:0;font-size:28px;font-weight:900;color:#059669;line-height:1;letter-spacing:-2px;">
+        <span leaf="">01</span>
+      </p>
+      <p style="margin:0;font-size:8px;font-weight:700;color:#D1D5DB;letter-spacing:2px;">
+        <span leaf="">PART</span>
+      </p>
+    </section>
+    <span style="width:1px;height:36px;background:#E5E7EB;flex-shrink:0;"><span leaf=""><br></span></span>
+    <section>
+      <p style="margin:0 0 1px;font-size:17px;font-weight:900;color:#111827;letter-spacing:0.3px;">
+        <span leaf="">先把这次的材料交代清楚</span>
+      </p>
+      <p style="margin:0;font-size:11px;font-weight:600;color:#9CA3AF;letter-spacing:1.5px;">
+        <span leaf="">PREPARE</span>
+      </p>
+    </section>
+  </section>
+
+  <p style="margin-bottom:16px;font-size:14px;line-height:1.9;text-align:justify;">
+  <span leaf=""><span leaf="">复制之前，先填完模板中的【】。写目标时，尽量说明</span><span style="border-bottom:2px solid #A7F3D0;font-weight:600;"><span leaf="">最后希望拿到什么</span></span><span leaf="">。写背景时，把已有材料贴进去，并注明哪些只是自己的猜测。截止日期、预算和不能接受的结果，也需要一并交代。</span></span>
+</p>
+<p style="margin-bottom:16px;font-size:14px;line-height:1.9;text-align:justify;">
+  <span leaf=""><span leaf=""></span><span style="border-bottom:2px solid #A7F3D0;font-weight:600;"><span leaf="">每次先选一条</span></span><span leaf="">，针对一个实际问题使用。对话进行到中途，可以补材料或改问题。若模型答偏了，指出它误解的那句话，往往比再加一段专家身份介绍更容易修正任务。</span></span>
+</p>
+<p style="margin-bottom:16px;font-size:14px;line-height:1.9;text-align:justify;">
+  <span leaf=""><span leaf="">涉及网页研究和核查的模板，需要所用 AI 确实能</span><span style="border-bottom:2px solid #A7F3D0;font-weight:600;"><span leaf="">检索并打开资料</span></span><span leaf="">。若它做不到，就改为分析你提供的材料。任何模板都无法单靠文字要求替产品增加工具权限。</span></span>
+</p>
+
+</section>
+<section style="margin-top:48px;margin-bottom:32px;padding:0 20px;">
+  <section style="display:flex;align-items:center;gap:16px;margin-bottom:24px;">
+    <section style="text-align:center;flex-shrink:0;">
+      <p style="margin:0;font-size:28px;font-weight:900;color:#059669;line-height:1;letter-spacing:-2px;">
+        <span leaf="">02</span>
+      </p>
+      <p style="margin:0;font-size:8px;font-weight:700;color:#D1D5DB;letter-spacing:2px;">
+        <span leaf="">PART</span>
+      </p>
+    </section>
+    <span style="width:1px;height:36px;background:#E5E7EB;flex-shrink:0;"><span leaf=""><br></span></span>
+    <section>
+      <p style="margin:0 0 1px;font-size:17px;font-weight:900;color:#111827;letter-spacing:0.3px;">
+        <span leaf="">问清问题以后再讨论办法</span>
+      </p>
+      <p style="margin:0;font-size:11px;font-weight:600;color:#9CA3AF;letter-spacing:1.5px;">
+        <span leaf="">CLARIFY</span>
+      </p>
+    </section>
+  </section>
+
+  <p style="margin-bottom:16px;font-size:14px;line-height:1.9;text-align:justify;">
+  <span leaf=""><span leaf="">第一个模板适合放在对话开头。先把</span><span style="border-bottom:2px solid #A7F3D0;font-weight:600;"><span leaf="">发生了什么</span></span><span leaf="">和自己怎样理解分开，再决定需要回答的问题。只有题目对得上眼前的困惑，后面的建议才有检查依据。</span></span>
+</p>
+<p style="font-size:15px;font-weight:900;color:#111827;margin-bottom:16px;">
+  <span style="background:linear-gradient(180deg,transparent 65%,#FDE68A 65%);padding:0 4px;"><span leaf="">01 先确定这次到底要回答什么</span></span>
+</p>
+<p style="margin-bottom:16px;font-size:14px;line-height:1.9;text-align:justify;">
+  <span leaf=""><span leaf="">适合情况已经说了一大段，自己仍然拿不准要问什么的时候。</span></span>
+</p>
+<section style="margin:0 0 20px;border-radius:8px;overflow:hidden;background:#F6F8FA;border:1px solid #E5E7EB;border-left:3px solid #059669;">
+  <section style="padding:7px 14px;border-bottom:1px solid #E5E7EB;">
+    <span style="font-size:12px;color:#9CA3AF;font-family:Consolas,Monaco,monospace;letter-spacing:1px;"><span leaf="">PROMPT 01 · 原创模板</span></span>
+  </section>
+  <section style="padding:11px 14px;">
+    <p style="margin:0;font-family:'SF Mono',Consolas,Monaco,monospace;font-size:13px;line-height:1.6;color:#24292F;"><span leaf="">我需要理清一件事。</span></p>
+<p style="margin:0;font-family:'SF Mono',Consolas,Monaco,monospace;font-size:13px;line-height:1.6;color:#24292F;"><span leaf="">事情经过是【实际发生的事】，我现在的想法是【自己的解释】，希望得到【期望结果】。</span></p>
+<p style="margin:0;font-family:'SF Mono',Consolas,Monaco,monospace;font-size:13px;line-height:1.6;color:#24292F;"><span leaf="">请先检查这三部分有没有混在一起。选出一个最影响理解的缺口，向我提问，等我回答再继续。最多进行四轮，够用就停。</span></p>
+<p style="margin:0;font-family:'SF Mono',Consolas,Monaco,monospace;font-size:13px;line-height:1.6;color:#24292F;"><span leaf="">最后给我一张问题卡，写出目前有依据的信息、还缺的证据，以及这次值得回答的一句话问题。我确认问题卡后，你再提出办法。</span></p>
+  </section>
+</section>
+<p style="margin-bottom:16px;font-size:14px;line-height:1.9;text-align:justify;">
+  <span leaf=""><span leaf="">先检查</span><span style="border-bottom:2px solid #A7F3D0;font-weight:600;"><span leaf="">问题卡</span></span><span leaf="">里的事实。如果 AI 把你的猜测写成了事实，这一轮就应该纠正，后面的方案先放一放。</span></span>
+</p>
+
+</section>
+<section style="margin-top:48px;margin-bottom:32px;padding:0 20px;">
+  <section style="display:flex;align-items:center;gap:16px;margin-bottom:24px;">
+    <section style="text-align:center;flex-shrink:0;">
+      <p style="margin:0;font-size:28px;font-weight:900;color:#059669;line-height:1;letter-spacing:-2px;">
+        <span leaf="">03</span>
+      </p>
+      <p style="margin:0;font-size:8px;font-weight:700;color:#D1D5DB;letter-spacing:2px;">
+        <span leaf="">PART</span>
+      </p>
+    </section>
+    <span style="width:1px;height:36px;background:#E5E7EB;flex-shrink:0;"><span leaf=""><br></span></span>
+    <section>
+      <p style="margin:0 0 1px;font-size:17px;font-weight:900;color:#111827;letter-spacing:0.3px;">
+        <span leaf="">学习时给自己留一道检查题</span>
+      </p>
+      <p style="margin:0;font-size:11px;font-weight:600;color:#9CA3AF;letter-spacing:1.5px;">
+        <span leaf="">LEARN</span>
+      </p>
+    </section>
+  </section>
+
+  <p style="margin-bottom:16px;font-size:14px;line-height:1.9;text-align:justify;">
+  <span leaf=""><span leaf="">概念解释、作品分析和资料研究需要的输出各不相同。选模板时，先看自己</span><span style="border-bottom:2px solid #A7F3D0;font-weight:600;"><span leaf="">究竟卡在</span></span><span leaf="">听不懂、不会做，还是不知道该不该相信。下面四条分别处理这几个问题。</span></span>
+</p>
+<p style="font-size:15px;font-weight:900;color:#111827;margin-bottom:16px;">
+  <span style="background:linear-gradient(180deg,transparent 65%,#FDE68A 65%);padding:0 4px;"><span leaf="">02 把听懂变成能够复述</span></span>
+</p>
+<p style="margin-bottom:16px;font-size:14px;line-height:1.9;text-align:justify;">
+  <span leaf=""><span leaf="">适合遇到</span><span style="border-bottom:2px solid #A7F3D0;font-weight:600;"><span leaf="">陌生概念</span></span><span leaf="">，能记住比喻，却解释不清原理的时候。</span></span>
+</p>
+<section style="margin:0 0 20px;border-radius:8px;overflow:hidden;background:#F6F8FA;border:1px solid #E5E7EB;border-left:3px solid #059669;">
+  <section style="padding:7px 14px;border-bottom:1px solid #E5E7EB;">
+    <span style="font-size:12px;color:#9CA3AF;font-family:Consolas,Monaco,monospace;letter-spacing:1px;"><span leaf="">PROMPT 02 · 原创模板</span></span>
+  </section>
+  <section style="padding:11px 14px;">
+    <p style="margin:0;font-family:'SF Mono',Consolas,Monaco,monospace;font-size:13px;line-height:1.6;color:#24292F;"><span leaf="">这次我要弄懂【概念】，已有基础是【学过什么】，准备把它用在【任务】。</span></p>
+<p style="margin:0;font-family:'SF Mono',Consolas,Monaco,monospace;font-size:13px;line-height:1.6;color:#24292F;"><span leaf="">请先给一段不用专业词的说明，再用准确术语解释同一件事。逐一指出前面那段简化了哪些条件，别让比喻替代机制。</span></p>
+<p style="margin:0;font-family:'SF Mono',Consolas,Monaco,monospace;font-size:13px;line-height:1.6;color:#24292F;"><span leaf="">给我一道能暴露误解的小题，暂时不公布答案。等我作答后，指出我哪一步理解对了，哪一步需要重学，并请我换自己的话再讲一遍。</span></p>
+  </section>
+</section>
+<p style="margin-bottom:16px;font-size:14px;line-height:1.9;text-align:justify;">
+  <span leaf=""><span leaf="">能不能回答</span><span style="border-bottom:2px solid #A7F3D0;font-weight:600;"><span leaf="">检查题</span></span><span leaf="">，比读起来顺不顺更容易观察。题目答错时，让 AI 对着错误解释，通常比再要一篇长介绍更具体。</span></span>
+</p>
+<p style="font-size:15px;font-weight:900;color:#111827;margin-bottom:16px;">
+  <span style="background:linear-gradient(180deg,transparent 65%,#FDE68A 65%);padding:0 4px;"><span leaf="">03 从成品里找出可以练的部分</span></span>
+</p>
+<p style="margin-bottom:16px;font-size:14px;line-height:1.9;text-align:justify;">
+  <span leaf=""><span leaf="">适合看见一个好作品，希望学会其中某个</span><span style="border-bottom:2px solid #A7F3D0;font-weight:600;"><span leaf="">具体做法</span></span><span leaf="">的时候。</span></span>
+</p>
+<section style="margin:0 0 20px;border-radius:8px;overflow:hidden;background:#F6F8FA;border:1px solid #E5E7EB;border-left:3px solid #059669;">
+  <section style="padding:7px 14px;border-bottom:1px solid #E5E7EB;">
+    <span style="font-size:12px;color:#9CA3AF;font-family:Consolas,Monaco,monospace;letter-spacing:1px;"><span leaf="">PROMPT 03 · 原创模板</span></span>
+  </section>
+  <section style="padding:11px 14px;">
+    <p style="margin:0;font-family:'SF Mono',Consolas,Monaco,monospace;font-size:13px;line-height:1.6;color:#24292F;"><span leaf="">请分析我提供的【作品或页面】，我只想练习其中的【具体能力】。</span></p>
+<p style="margin:0;font-family:'SF Mono',Consolas,Monaco,monospace;font-size:13px;line-height:1.6;color:#24292F;"><span leaf="">把你能直接观察到的设计选择与对作者意图的猜测分开。挑两个最影响体验的选择，说明它们怎样起作用，以及换掉以后可能发生什么。</span></p>
+<p style="margin:0;font-family:'SF Mono',Consolas,Monaco,monospace;font-size:13px;line-height:1.6;color:#24292F;"><span leaf="">再给我一个不照搬原作的小练习，限定在【可投入时间】内，写清需要提交的成果和检查标准。资料看不到的部分请向我索取。</span></p>
+  </section>
+</section>
+<p style="margin-bottom:16px;font-size:14px;line-height:1.9;text-align:justify;">
+  <span leaf=""><span leaf="">给网页链接时，先确认 AI 能看到</span><span style="border-bottom:2px solid #A7F3D0;font-weight:600;"><span leaf="">页面</span></span><span leaf="">。看不到就补截图或文字，不能让它靠网站名称猜出一份拆解。</span></span>
+</p>
+<p style="font-size:15px;font-weight:900;color:#111827;margin-bottom:16px;">
+  <span style="background:linear-gradient(180deg,transparent 65%,#FDE68A 65%);padding:0 4px;"><span leaf="">04 带着问题研究一个陌生领域</span></span>
+</p>
+<p style="margin-bottom:16px;font-size:14px;line-height:1.9;text-align:justify;">
+  <span leaf=""><span leaf="">适合需要建立背景，同时比较现实选择的时候。</span></span>
+</p>
+<section style="margin:0 0 20px;border-radius:8px;overflow:hidden;background:#F6F8FA;border:1px solid #E5E7EB;border-left:3px solid #059669;">
+  <section style="padding:7px 14px;border-bottom:1px solid #E5E7EB;">
+    <span style="font-size:12px;color:#9CA3AF;font-family:Consolas,Monaco,monospace;letter-spacing:1px;"><span leaf="">PROMPT 04 · 原创模板</span></span>
+  </section>
+  <section style="padding:11px 14px;">
+    <p style="margin:0;font-family:'SF Mono',Consolas,Monaco,monospace;font-size:13px;line-height:1.6;color:#24292F;"><span leaf="">我要研究【对象】，为了回答【实际问题】，资料范围截至【日期】。</span></p>
+<p style="margin:0;font-family:'SF Mono',Consolas,Monaco,monospace;font-size:13px;line-height:1.6;color:#24292F;"><span leaf="">请先检查能否检索并打开资料；若不能，就列出需要我补充的材料。</span></p>
+<p style="margin:0;font-family:'SF Mono',Consolas,Monaco,monospace;font-size:13px;line-height:1.6;color:#24292F;"><span leaf="">从发展过程里挑出改变今天局面的节点，再选两个具有可比性的对象，使用相同口径比较。每个重要判断附可访问的出处和资料日期，标明哪些是你的推测。</span></p>
+<p style="margin:0;font-family:'SF Mono',Consolas,Monaco,monospace;font-size:13px;line-height:1.6;color:#24292F;"><span leaf="">先交一页研究简报，列出已能回答的问题和剩余缺口。我选定需要展开的部分后，再继续研究。</span></p>
+  </section>
+</section>
+<p style="margin-bottom:16px;font-size:14px;line-height:1.9;text-align:justify;">
+  <span leaf=""><span leaf="">这里把篇幅交给材料决定。第一次只要一页简报，先看</span><span style="border-bottom:2px solid #A7F3D0;font-weight:600;"><span leaf="">来源</span></span><span leaf="">能否支撑判断，再决定要不要展开。</span></span>
+</p>
+<p style="font-size:15px;font-weight:900;color:#111827;margin-bottom:16px;">
+  <span style="background:linear-gradient(180deg,transparent 65%,#FDE68A 65%);padding:0 4px;"><span leaf="">05 把一个结论拆成能核实的句子</span></span>
+</p>
+<p style="margin-bottom:16px;font-size:14px;line-height:1.9;text-align:justify;">
+  <span leaf=""><span leaf="">适合检查文章、方案或 AI 回答里的具体说法。</span></span>
+</p>
+<section style="margin:0 0 20px;border-radius:8px;overflow:hidden;background:#F6F8FA;border:1px solid #E5E7EB;border-left:3px solid #059669;">
+  <section style="padding:7px 14px;border-bottom:1px solid #E5E7EB;">
+    <span style="font-size:12px;color:#9CA3AF;font-family:Consolas,Monaco,monospace;letter-spacing:1px;"><span leaf="">PROMPT 05 · 原创模板</span></span>
+  </section>
+  <section style="padding:11px 14px;">
+    <p style="margin:0;font-family:'SF Mono',Consolas,Monaco,monospace;font-size:13px;line-height:1.6;color:#24292F;"><span leaf="">待检查的内容是【原句和上下文】。</span></p>
+<p style="margin:0;font-family:'SF Mono',Consolas,Monaco,monospace;font-size:13px;line-height:1.6;color:#24292F;"><span leaf="">请把其中能够核实的主张逐条编号，为每条建立证据记录，写出支持材料、相反材料、适用时间和仍缺的信息。链接必须实际打开过；无法访问就如实说明。</span></p>
+<p style="margin:0;font-family:'SF Mono',Consolas,Monaco,monospace;font-size:13px;line-height:1.6;color:#24292F;"><span leaf="">对没有事实真假的偏好判断单独处理。接着检查作者的结论是否超过证据能够说明的范围。</span></p>
+<p style="margin:0;font-family:'SF Mono',Consolas,Monaco,monospace;font-size:13px;line-height:1.6;color:#24292F;"><span leaf="">最后给出一版保留必要限定的改写，并告诉我哪条证据最值得亲自复核。</span></p>
+  </section>
+</section>
+<p style="margin-bottom:16px;font-size:14px;line-height:1.9;text-align:justify;">
+  <span leaf=""><span leaf="">核查结果里出现链接，还需要点开看。检查材料的</span><span style="border-bottom:2px solid #A7F3D0;font-weight:600;"><span leaf="">日期</span></span><span leaf="">、对象和统计口径，确认它回答的确实是眼前这句话。</span></span>
+</p>
+
+</section>
+<section style="margin-top:48px;margin-bottom:32px;padding:0 20px;">
+  <section style="display:flex;align-items:center;gap:16px;margin-bottom:24px;">
+    <section style="text-align:center;flex-shrink:0;">
+      <p style="margin:0;font-size:28px;font-weight:900;color:#059669;line-height:1;letter-spacing:-2px;">
+        <span leaf="">04</span>
+      </p>
+      <p style="margin:0;font-size:8px;font-weight:700;color:#D1D5DB;letter-spacing:2px;">
+        <span leaf="">PART</span>
+      </p>
+    </section>
+    <span style="width:1px;height:36px;background:#E5E7EB;flex-shrink:0;"><span leaf=""><br></span></span>
+    <section>
+      <p style="margin:0 0 1px;font-size:17px;font-weight:900;color:#111827;letter-spacing:0.3px;">
+        <span leaf="">方案写出来以后，还要经得起检查</span>
+      </p>
+      <p style="margin:0;font-size:11px;font-weight:600;color:#9CA3AF;letter-spacing:1.5px;">
+        <span leaf="">SOLVE</span>
+      </p>
+    </section>
+  </section>
+
+  <p style="margin-bottom:16px;font-size:14px;line-height:1.9;text-align:justify;">
+  <span leaf=""><span leaf="">这组模板会产生</span><span style="border-bottom:2px solid #A7F3D0;font-weight:600;"><span leaf="">候选方案</span></span><span leaf="">，也会把值得继续调查的地方写出来。讨论之后要留下可执行的验证动作，否则对话很容易停在几段都说得通的分析里。</span></span>
+</p>
+<p style="font-size:15px;font-weight:900;color:#111827;margin-bottom:16px;">
+  <span style="background:linear-gradient(180deg,transparent 65%,#FDE68A 65%);padding:0 4px;"><span leaf="">06 让不同立场检查同一份方案</span></span>
+</p>
+<p style="margin-bottom:16px;font-size:14px;line-height:1.9;text-align:justify;">
+  <span leaf=""><span leaf="">适合一个方案会同时影响不同角色，需要寻找遗漏的时候。</span></span>
+</p>
+<section style="margin:0 0 20px;border-radius:8px;overflow:hidden;background:#F6F8FA;border:1px solid #E5E7EB;border-left:3px solid #059669;">
+  <section style="padding:7px 14px;border-bottom:1px solid #E5E7EB;">
+    <span style="font-size:12px;color:#9CA3AF;font-family:Consolas,Monaco,monospace;letter-spacing:1px;"><span leaf="">PROMPT 06 · 原创模板</span></span>
+  </section>
+  <section style="padding:11px 14px;">
+    <p style="margin:0;font-family:'SF Mono',Consolas,Monaco,monospace;font-size:13px;line-height:1.6;color:#24292F;"><span leaf="">我正在处理【问题】，当前方案是【内容】，最难改变的条件是【条件】。</span></p>
+<p style="margin:0;font-family:'SF Mono',Consolas,Monaco,monospace;font-size:13px;line-height:1.6;color:#24292F;"><span leaf="">请选择几个利益或职责确实不同的分析立场，分别指出方案最脆弱的一处。用同一份已知材料展开分析，不虚构专家身份或真实人物发言。</span></p>
+<p style="margin:0;font-family:'SF Mono',Consolas,Monaco,monospace;font-size:13px;line-height:1.6;color:#24292F;"><span leaf="">请做一张分歧表，注明每处分歧来自目标不同还是事实判断不同，再指出哪项调查能帮助解决它。</span></p>
+<p style="margin:0;font-family:'SF Mono',Consolas,Monaco,monospace;font-size:13px;line-height:1.6;color:#24292F;"><span leaf="">给出一个有条件的建议，并写出出现什么证据时应当撤回建议。</span></p>
+  </section>
+</section>
+<p style="margin-bottom:16px;font-size:14px;line-height:1.9;text-align:justify;">
+  <span leaf=""><span leaf="">同一个 AI 换几个立场，仍然属于一次模型分析。这里得到的是待检查的问题，不能把模拟出的意见数量当成</span><span style="border-bottom:2px solid #A7F3D0;font-weight:600;"><span leaf="">独立证据</span></span><span leaf="">数量。</span></span>
+</p>
+<p style="font-size:15px;font-weight:900;color:#111827;margin-bottom:16px;">
+  <span style="background:linear-gradient(180deg,transparent 65%,#FDE68A 65%);padding:0 4px;"><span leaf="">07 检查哪些约束真的不能动</span></span>
+</p>
+<p style="margin-bottom:16px;font-size:14px;line-height:1.9;text-align:justify;">
+  <span leaf=""><span leaf="">适合现有方案越改越复杂，想重新检查必要条件的时候。</span></span>
+</p>
+<section style="margin:0 0 20px;border-radius:8px;overflow:hidden;background:#F6F8FA;border:1px solid #E5E7EB;border-left:3px solid #059669;">
+  <section style="padding:7px 14px;border-bottom:1px solid #E5E7EB;">
+    <span style="font-size:12px;color:#9CA3AF;font-family:Consolas,Monaco,monospace;letter-spacing:1px;"><span leaf="">PROMPT 07 · 原创模板</span></span>
+  </section>
+  <section style="padding:11px 14px;">
+    <p style="margin:0;font-family:'SF Mono',Consolas,Monaco,monospace;font-size:13px;line-height:1.6;color:#24292F;"><span leaf="">目标是【希望发生的可观察变化】，现在采用【做法】，可用资源为【资源】。</span></p>
+<p style="margin:0;font-family:'SF Mono',Consolas,Monaco,monospace;font-size:13px;line-height:1.6;color:#24292F;"><span leaf="">请审查我声称不能改变的每个条件，标记它是有证据的限制、可以谈判的要求，还是沿用至今的习惯。证据不够的条件先保留疑问。</span></p>
+<p style="margin:0;font-family:'SF Mono',Consolas,Monaco,monospace;font-size:13px;line-height:1.6;color:#24292F;"><span leaf="">在确有依据的限制内，设计一个删去非必要步骤的候选方案，与现方案比较成本和失效方式。</span></p>
+<p style="margin:0;font-family:'SF Mono',Consolas,Monaco,monospace;font-size:13px;line-height:1.6;color:#24292F;"><span leaf="">只推荐一个能够先验证必要前提的小动作，暂时不要建议全面推翻现有做法。</span></p>
+  </section>
+</section>
+<p style="margin-bottom:16px;font-size:14px;line-height:1.9;text-align:justify;">
+  <span leaf=""><span leaf="">重新推导方案以前，要留下</span><span style="border-bottom:2px solid #A7F3D0;font-weight:600;"><span leaf="">真正存在的限制</span></span><span leaf="">。预算、交付期限和已经签下的约定，不能因为一句重新思考就消失。</span></span>
+</p>
+<p style="font-size:15px;font-weight:900;color:#111827;margin-bottom:16px;">
+  <span style="background:linear-gradient(180deg,transparent 65%,#FDE68A 65%);padding:0 4px;"><span leaf="">08 借别处的机制，再检查是否适用</span></span>
+</p>
+<p style="margin-bottom:16px;font-size:14px;line-height:1.9;text-align:justify;">
+  <span leaf=""><span leaf="">适合本领域的常见办法已经试过，需要寻找新思路的时候。</span></span>
+</p>
+<section style="margin:0 0 20px;border-radius:8px;overflow:hidden;background:#F6F8FA;border:1px solid #E5E7EB;border-left:3px solid #059669;">
+  <section style="padding:7px 14px;border-bottom:1px solid #E5E7EB;">
+    <span style="font-size:12px;color:#9CA3AF;font-family:Consolas,Monaco,monospace;letter-spacing:1px;"><span leaf="">PROMPT 08 · 原创模板</span></span>
+  </section>
+  <section style="padding:11px 14px;">
+    <p style="margin:0;font-family:'SF Mono',Consolas,Monaco,monospace;font-size:13px;line-height:1.6;color:#24292F;"><span leaf="">目前的难题是【输入、过程和不理想的结果】，已经试过【做法】。</span></p>
+<p style="margin:0;font-family:'SF Mono',Consolas,Monaco,monospace;font-size:13px;line-height:1.6;color:#24292F;"><span leaf="">先描述这个过程里最关键的关系，再找其他领域中具有相似关系的机制。真实案例附出处，找不到案例就明确写成假设，不能编造历史故事。</span></p>
+<p style="margin:0;font-family:'SF Mono',Consolas,Monaco,monospace;font-size:13px;line-height:1.6;color:#24292F;"><span leaf="">选择一个机制，逐项说明迁移到这里需要哪些条件，以及有哪些差异可能让它失败。</span></p>
+<p style="margin:0;font-family:'SF Mono',Consolas,Monaco,monospace;font-size:13px;line-height:1.6;color:#24292F;"><span leaf="">把它缩成一个可撤回的小试验，写出观察方法，结果不符时就停止使用这个类比。</span></p>
+  </section>
+</section>
+<p style="margin-bottom:16px;font-size:14px;line-height:1.9;text-align:justify;">
+  <span leaf=""><span leaf="">跨领域的相似之处只能提供</span><span style="border-bottom:2px solid #A7F3D0;font-weight:600;"><span leaf="">候选思路</span></span><span leaf="">。能否迁移，要看关键条件；两个案例听上去像，并不能证明办法可用。</span></span>
+</p>
+
+</section>
+<section style="margin-top:48px;margin-bottom:32px;padding:0 20px;">
+  <section style="display:flex;align-items:center;gap:16px;margin-bottom:24px;">
+    <section style="text-align:center;flex-shrink:0;">
+      <p style="margin:0;font-size:28px;font-weight:900;color:#059669;line-height:1;letter-spacing:-2px;">
+        <span leaf="">05</span>
+      </p>
+      <p style="margin:0;font-size:8px;font-weight:700;color:#D1D5DB;letter-spacing:2px;">
+        <span leaf="">PART</span>
+      </p>
+    </section>
+    <span style="width:1px;height:36px;background:#E5E7EB;flex-shrink:0;"><span leaf=""><br></span></span>
+    <section>
+      <p style="margin:0 0 1px;font-size:17px;font-weight:900;color:#111827;letter-spacing:0.3px;">
+        <span leaf="">决定之前，找出还缺的那条信息</span>
+      </p>
+      <p style="margin:0;font-size:11px;font-weight:600;color:#9CA3AF;letter-spacing:1.5px;">
+        <span leaf="">DECIDE</span>
+      </p>
+    </section>
+  </section>
+
+  <p style="margin-bottom:16px;font-size:14px;line-height:1.9;text-align:justify;">
+  <span leaf=""><span leaf="">两个选项都有理由时，可以先把</span><span style="border-bottom:2px solid #A7F3D0;font-weight:600;"><span leaf="">比较标准</span></span><span leaf="">写出来。若分歧来自一个尚不知道的情况，接下来的工作就是查明它；能够试出来的事情，则可以给试验设一个截止日。</span></span>
+</p>
+<p style="font-size:15px;font-weight:900;color:#111827;margin-bottom:16px;">
+  <span style="background:linear-gradient(180deg,transparent 65%,#FDE68A 65%);padding:0 4px;"><span leaf="">09 公平比较两个都说得通的选择</span></span>
+</p>
+<p style="margin-bottom:16px;font-size:14px;line-height:1.9;text-align:justify;">
+  <span leaf=""><span leaf="">适合已有两个选项，需要看清自己究竟在权衡什么的时候。</span></span>
+</p>
+<section style="margin:0 0 20px;border-radius:8px;overflow:hidden;background:#F6F8FA;border:1px solid #E5E7EB;border-left:3px solid #059669;">
+  <section style="padding:7px 14px;border-bottom:1px solid #E5E7EB;">
+    <span style="font-size:12px;color:#9CA3AF;font-family:Consolas,Monaco,monospace;letter-spacing:1px;"><span leaf="">PROMPT 09 · 原创模板</span></span>
+  </section>
+  <section style="padding:11px 14px;">
+    <p style="margin:0;font-family:'SF Mono',Consolas,Monaco,monospace;font-size:13px;line-height:1.6;color:#24292F;"><span leaf="">我在【选项 A】与【选项 B】之间选择，最在意【判断标准】，必须守住【底线】。</span></p>
+<p style="margin:0;font-family:'SF Mono',Consolas,Monaco,monospace;font-size:13px;line-height:1.6;color:#24292F;"><span leaf="">请按同一套标准，分别写出一个认真支持该选项的人最有力的理由，再检查两边各自最难回答的质疑。不要为了对称凑出同样多的优点。</span></p>
+<p style="margin:0;font-family:'SF Mono',Consolas,Monaco,monospace;font-size:13px;line-height:1.6;color:#24292F;"><span leaf="">找出一个能改变排序、目前又不知道的信息，先问我。</span></p>
+<p style="margin:0;font-family:'SF Mono',Consolas,Monaco,monospace;font-size:13px;line-height:1.6;color:#24292F;"><span leaf="">收到回答后再给出推荐，列明我接受了什么代价，以及什么变化会使推荐反转。</span></p>
+  </section>
+</section>
+<p style="margin-bottom:16px;font-size:14px;line-height:1.9;text-align:justify;">
+  <span leaf=""><span leaf="">如果两个选项都碰到了</span><span style="border-bottom:2px solid #A7F3D0;font-weight:600;"><span leaf="">底线</span></span><span leaf="">，先调整候选范围。比较表再完整，也不能替你决定一个自己不愿接受的代价。</span></span>
+</p>
+<p style="font-size:15px;font-weight:900;color:#111827;margin-bottom:16px;">
+  <span style="background:linear-gradient(180deg,transparent 65%,#FDE68A 65%);padding:0 4px;"><span leaf="">10 把纠结变成一次有记录的试验</span></span>
+</p>
+<p style="margin-bottom:16px;font-size:14px;line-height:1.9;text-align:justify;">
+  <span leaf=""><span leaf="">适合关键疑问能够通过小规模行动获得信息的时候。</span></span>
+</p>
+<section style="margin:0 0 20px;border-radius:8px;overflow:hidden;background:#F6F8FA;border:1px solid #E5E7EB;border-left:3px solid #059669;">
+  <section style="padding:7px 14px;border-bottom:1px solid #E5E7EB;">
+    <span style="font-size:12px;color:#9CA3AF;font-family:Consolas,Monaco,monospace;letter-spacing:1px;"><span leaf="">PROMPT 10 · 原创模板</span></span>
+  </section>
+  <section style="padding:11px 14px;">
+    <p style="margin:0;font-family:'SF Mono',Consolas,Monaco,monospace;font-size:13px;line-height:1.6;color:#24292F;"><span leaf="">我想判断【是否采取某个行动】，最不确定的是【未知情况】。</span></p>
+<p style="margin:0;font-family:'SF Mono',Consolas,Monaco,monospace;font-size:13px;line-height:1.6;color:#24292F;"><span leaf="">我最多投入【时间和预算】，试验须在【截止日】结束，并且能恢复原状。</span></p>
+<p style="margin:0;font-family:'SF Mono',Consolas,Monaco,monospace;font-size:13px;line-height:1.6;color:#24292F;"><span leaf="">请先把未知情况改写成能被结果支持或反驳的假设，再设计一个试验。说明需要留下什么记录，什么结果支持继续，什么结果表示应停下，以及什么结果只能算没有测出来。</span></p>
+<p style="margin:0;font-family:'SF Mono',Consolas,Monaco,monospace;font-size:13px;line-height:1.6;color:#24292F;"><span leaf="">排除无法实际完成的安排，给我第一天的动作和一张简短记录表。</span></p>
+  </section>
+</section>
+<p style="margin-bottom:16px;font-size:14px;line-height:1.9;text-align:justify;">
+  <span leaf=""><span leaf="">先约定怎样解释结果，再开始行动。结果含糊时保留</span><span style="border-bottom:2px solid #A7F3D0;font-weight:600;"><span leaf="">没有测出来</span></span><span leaf="">这个选项，别把一次小试验写成长期成功的保证。</span></span>
+</p>
+
+</section>
+<section style="margin-top:48px;margin-bottom:32px;padding:0 20px;">
+  <section style="display:flex;align-items:center;gap:16px;margin-bottom:24px;">
+    <section style="text-align:center;flex-shrink:0;">
+      <p style="margin:0;font-size:28px;font-weight:900;color:#059669;line-height:1;letter-spacing:-2px;">
+        <span leaf="">06</span>
+      </p>
+      <p style="margin:0;font-size:8px;font-weight:700;color:#D1D5DB;letter-spacing:2px;">
+        <span leaf="">PART</span>
+      </p>
+    </section>
+    <span style="width:1px;height:36px;background:#E5E7EB;flex-shrink:0;"><span leaf=""><br></span></span>
+    <section>
+      <p style="margin:0 0 1px;font-size:17px;font-weight:900;color:#111827;letter-spacing:0.3px;">
+        <span leaf="">用经历和体验慢慢校准方向</span>
+      </p>
+      <p style="margin:0;font-size:11px;font-weight:600;color:#9CA3AF;letter-spacing:1.5px;">
+        <span leaf="">REFLECT</span>
+      </p>
+    </section>
+  </section>
+
+  <p style="margin-bottom:16px;font-size:14px;line-height:1.9;text-align:justify;">
+  <span leaf=""><span leaf=""></span><span style="border-bottom:2px solid #A7F3D0;font-weight:600;"><span leaf="">个人经历</span></span><span leaf="">需要慢慢补充，别急着接受一个听上去很懂你的结论。保留不符合判断的例子，也给自己留下跳过问题和暂停对话的空间。以下两条用于反思和探索，不能据此认定一个人的终身能力或心理状态。</span></span>
+</p>
+<p style="font-size:15px;font-weight:900;color:#111827;margin-bottom:16px;">
+  <span style="background:linear-gradient(180deg,transparent 65%,#FDE68A 65%);padding:0 4px;"><span leaf="">11 从具体经历里整理优势线索</span></span>
+</p>
+<p style="margin-bottom:16px;font-size:14px;line-height:1.9;text-align:justify;">
+  <span leaf=""><span leaf="">适合整理自己做过的事，寻找值得继续验证的能力。</span></span>
+</p>
+<section style="margin:0 0 20px;border-radius:8px;overflow:hidden;background:#F6F8FA;border:1px solid #E5E7EB;border-left:3px solid #059669;">
+  <section style="padding:7px 14px;border-bottom:1px solid #E5E7EB;">
+    <span style="font-size:12px;color:#9CA3AF;font-family:Consolas,Monaco,monospace;letter-spacing:1px;"><span leaf="">PROMPT 11 · 原创模板</span></span>
+  </section>
+  <section style="padding:11px 14px;">
+    <p style="margin:0;font-family:'SF Mono',Consolas,Monaco,monospace;font-size:13px;line-height:1.6;color:#24292F;"><span leaf="">请陪我整理个人经历，我希望了解自己在哪些任务中更容易做出好成果。</span></p>
+<p style="margin:0;font-family:'SF Mono',Consolas,Monaco,monospace;font-size:13px;line-height:1.6;color:#24292F;"><span leaf="">先请我讲一个最近完成的具体任务，追问我的动作、结果和他人的真实反馈。一次问一件事，我可以跳过不想回答的内容。</span></p>
+<p style="margin:0;font-family:'SF Mono',Consolas,Monaco,monospace;font-size:13px;line-height:1.6;color:#24292F;"><span leaf="">积累几段经历后，寻找重复出现的能力线索，也请我提供一个不符合该判断的例子。把做得好与做完后的感受分开记录。</span></p>
+<p style="margin:0;font-family:'SF Mono',Consolas,Monaco,monospace;font-size:13px;line-height:1.6;color:#24292F;"><span leaf="">输出一份待验证的优势清单，每项附经历依据，并安排一次能继续检验它的尝试。不要据此做心理诊断。</span></p>
+  </section>
+</section>
+<p style="margin-bottom:16px;font-size:14px;line-height:1.9;text-align:justify;">
+  <span leaf=""><span leaf="">个人经历能够支持一些能力线索。仅凭几轮聊天判断终身天赋，证据仍然很薄；</span><span style="border-bottom:2px solid #A7F3D0;font-weight:600;"><span leaf="">相反的经历</span></span><span leaf="">也值得保留。</span></span>
+</p>
+<p style="font-size:15px;font-weight:900;color:#111827;margin-bottom:16px;">
+  <span style="background:linear-gradient(180deg,transparent 65%,#FDE68A 65%);padding:0 4px;"><span leaf="">12 把未来方向做成可以体验的选项</span></span>
+</p>
+<p style="margin-bottom:16px;font-size:14px;line-height:1.9;text-align:justify;">
+  <span leaf=""><span leaf="">适合想调整生活或工作方向，希望先了解实际代价的时候。</span></span>
+</p>
+<section style="margin:0 0 20px;border-radius:8px;overflow:hidden;background:#F6F8FA;border:1px solid #E5E7EB;border-left:3px solid #059669;">
+  <section style="padding:7px 14px;border-bottom:1px solid #E5E7EB;">
+    <span style="font-size:12px;color:#9CA3AF;font-family:Consolas,Monaco,monospace;letter-spacing:1px;"><span leaf="">PROMPT 12 · 原创模板</span></span>
+  </section>
+  <section style="padding:11px 14px;">
+    <p style="margin:0;font-family:'SF Mono',Consolas,Monaco,monospace;font-size:13px;line-height:1.6;color:#24292F;"><span leaf="">我希望调整【生活或工作方面】，目前需要承担【现实责任】，愿意拿出【可投入资源】探索。</span></p>
+<p style="margin:0;font-family:'SF Mono',Consolas,Monaco,monospace;font-size:13px;line-height:1.6;color:#24292F;"><span leaf="">先向我了解一个最想改变的日常片段，一次问一个问题，允许我暂停。请把我能采取行动的部分和暂时无法改变的条件分开。</span></p>
+<p style="margin:0;font-family:'SF Mono',Consolas,Monaco,monospace;font-size:13px;line-height:1.6;color:#24292F;"><span leaf="">和我共同提出几条生活方式确有差异的方向，每条写出普通一周会怎样度过、需要什么资源、仍有什么疑问。不要替我排序或假装知道我的潜意识。</span></p>
+<p style="margin:0;font-family:'SF Mono',Consolas,Monaco,monospace;font-size:13px;line-height:1.6;color:#24292F;"><span leaf="">选出我愿意尝试的一条，为它安排一次访谈或短期体验。记录结束后再讨论是否继续。</span></p>
+  </section>
+</section>
+<p style="margin-bottom:16px;font-size:14px;line-height:1.9;text-align:justify;">
+  <span leaf=""><span leaf="">未来的描述需要回到现实里验证。先找一位从事相关工作的人聊聊，或安排一次</span><span style="border-bottom:2px solid #A7F3D0;font-weight:600;"><span leaf="">短期体验</span></span><span leaf="">，能得到比继续想象更具体的信息。</span></span>
+</p>
+
+</section>
+<section style="margin-top:48px;margin-bottom:32px;padding:0 20px;">
+  <section style="display:flex;align-items:center;gap:16px;margin-bottom:24px;">
+    <section style="text-align:center;flex-shrink:0;">
+      <p style="margin:0;font-size:28px;font-weight:900;color:#059669;line-height:1;letter-spacing:-2px;">
+        <span leaf="">///</span>
+      </p>
+      <p style="margin:0;font-size:8px;font-weight:700;color:#D1D5DB;letter-spacing:2px;">
+        <span leaf="">LAST</span>
+      </p>
+    </section>
+    <span style="width:1px;height:36px;background:#E5E7EB;flex-shrink:0;"><span leaf=""><br></span></span>
+    <section>
+      <p style="margin:0 0 1px;font-size:17px;font-weight:900;color:#111827;letter-spacing:0.3px;">
+        <span leaf="">写在最后</span>
+      </p>
+      <p style="margin:0;font-size:11px;font-weight:600;color:#9CA3AF;letter-spacing:1.5px;">
+        <span leaf="">ACTION</span>
+      </p>
+    </section>
+  </section>
+
+  <p style="margin-bottom:16px;font-size:14px;line-height:1.9;text-align:justify;">
+  <span leaf=""><span leaf="">使用时，我建议先检查一件很具体的事。回答里有没有出现你没有提供、也没有</span><span style="border-bottom:2px solid #A7F3D0;font-weight:600;"><span leaf="">来源支持的信息</span></span><span leaf="">。发现一处，就回去补证据或收窄问题，别让后续方案继续依赖它。</span></span>
+</p>
+<p style="margin-bottom:16px;font-size:14px;line-height:1.9;text-align:justify;">
+  <span leaf=""><span leaf="">再看这次对话是否留下了可以检查的成果。学习模板留下</span><span style="border-bottom:2px solid #A7F3D0;font-weight:600;"><span leaf="">自己的作答</span></span><span leaf="">，研究模板留下能打开的材料；准备试验时，提前写下怎样解释结果。下次回来，把这些实际反馈交给 AI，再继续讨论。</span></span>
+</p>
+<p style="margin-bottom:16px;font-size:14px;line-height:1.9;text-align:justify;">
+  <span leaf=""><span leaf="">今天先挑一条，填入眼前的问题。把</span><span style="border-bottom:2px solid #A7F3D0;font-weight:600;"><span leaf="">第一次回答</span></span><span leaf="">里最不准确的那一句指出来，从那里开始修改。</span></span>
+</p>
+<p style="margin-bottom:16px;font-size:14px;line-height:1.9;text-align:justify;">
+  <span leaf=""><span leaf="">来源为数字生命卡兹克的</span><a href="https://mp.weixin.qq.com/s/NAdhdFrUq9-BKelqzqpwBQ" style="color:#059669;text-decoration:underline;"><span leaf="">十二个常用 Prompt 合集</span></a><span leaf="">，</span><span style="border-bottom:2px solid #A7F3D0;font-weight:600;"><span leaf="">页面</span></span><span leaf="">显示发表于 2026 年 8 月 21 日，修改于 2026 年 9 月 23 日。本文于 2026 年 10 月 11 日核对用途，提供独立编写的实用模板。</span></span>
+</p>
+<p style="margin-bottom:16px;font-size:14px;line-height:1.9;text-align:justify;">
+  <span leaf=""><span leaf=""></span><span style="border-bottom:2px solid #A7F3D0;font-weight:600;"><span leaf="">整理／赡养上帝</span></span><span leaf=""></span></span>
+</p>
+
+</section>
+<section style="background:radial-gradient(circle at center,#F9FAFB 0%,#FFFFFF 100%);border:1px solid #E5E7EB;border-radius:16px;padding:32px 20px;text-align:center;box-shadow:0 4px 12px rgba(0,0,0,0.03);margin:0 0 24px;">
+  <p style="font-size:13px;font-weight:bold;color:#111827;margin-bottom:20px;line-height:1.6;">
+    <span leaf="">如果这篇对你有帮助，欢迎点赞、在看、转发。</span>
+  </p>
+  <section style="display:flex;justify-content:center;gap:24px;margin-bottom:16px;">
+    <section style="text-align:center;cursor:pointer;color:#4B5563;">
+      <section style="width:40px;height:40px;display:flex;align-items:center;justify-content:center;margin:0 auto 6px;background:#fff;border-radius:12px;box-shadow:0 2px 4px rgba(0,0,0,0.05);border:1px solid #F3F4F6;">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"></path></svg>
+      </section>
+      <span style="font-size:10px;font-weight:600;"><span leaf="">点赞</span></span>
+    </section>
+    <section style="text-align:center;cursor:pointer;color:#4B5563;">
+      <section style="width:40px;height:40px;display:flex;align-items:center;justify-content:center;margin:0 auto 6px;background:#fff;border-radius:12px;box-shadow:0 2px 4px rgba(0,0,0,0.05);border:1px solid #F3F4F6;">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="3"></circle><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path></svg>
+      </section>
+      <span style="font-size:10px;font-weight:600;"><span leaf="">在看</span></span>
+    </section>
+    <section style="text-align:center;cursor:pointer;color:#059669;">
+      <section style="width:40px;height:40px;display:flex;align-items:center;justify-content:center;margin:0 auto 6px;background:#ECFDF5;border-radius:12px;box-shadow:0 2px 4px rgba(5,150,105,0.15);border:1px solid #A7F3D0;">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 18v-4a8 8 0 0 1 8-8h8"></path><polyline points="16 2 20 6 16 10"></polyline></svg>
+      </section>
+      <span style="font-size:10px;font-weight:600;"><span leaf="">转发</span></span>
+    </section>
+  </section>
+  <p style="font-size:10px;color:#9CA3AF;letter-spacing:1px;margin:0;">
+    <span leaf="">THANKS FOR READING</span>
+  </p>
+</section>
+
+</section>
+  </div>
+</div>
+<script>
+  function gzhShowToast(msg){
+    var t=document.getElementById('gzhToast');
+    t.textContent=msg;t.classList.add('show');
+    clearTimeout(t._timer);
+    t._timer=setTimeout(function(){t.classList.remove('show');},2800);
+  }
+  function gzhCopy(){
+    var el=document.getElementById('gzh-content');
+    // 选中渲染后的富文本节点并复制（等价于手动 Ctrl+A / Ctrl+C，保留全部样式）
+    var range=document.createRange();
+    range.selectNodeContents(el);
+    var sel=window.getSelection();
+    sel.removeAllRanges();
+    sel.addRange(range);
+    var ok=false;
+    try{ok=document.execCommand('copy');}catch(e){ok=false;}
+    sel.removeAllRanges();
+    var btn=document.getElementById('gzhCopyBtn');
+    if(ok){
+      gzhShowToast('✅ 已复制！去公众号编辑器按 Ctrl/⌘+V 粘贴即可');
+      var old=btn.textContent;btn.textContent='✅ 已复制';
+      setTimeout(function(){btn.textContent=old;},2200);
+    }else{
+      gzhShowToast('⚠ 自动复制失败，请手动全选(Ctrl/⌘+A)再复制(Ctrl/⌘+C)');
+    }
+  }
+</script>
+</body>
+</html>
