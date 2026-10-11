@@ -2,7 +2,7 @@
 
 一篇使用指南，配套 12 组可复制的原创实用模板。覆盖问清问题、学习、解决问题、决策和自我认识。
 
-依据数字生命卡兹克的[常用 Prompt 合集](https://mp.weixin.qq.com/s/NAdhdFrUq9-BKelqzqpwBQ)核对用途后独立写作。这里没有收录原文提示词全文，也不代表原作者的新版本。
+依据[常用 Prompt 合集](https://mp.weixin.qq.com/s/NAdhdFrUq9-BKelqzqpwBQ)核对用途后独立写作。这里没有收录原文提示词全文，也不代表原作者的新版本。
 
 ## 阅读与使用
 
